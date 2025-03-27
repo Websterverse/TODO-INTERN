@@ -1,15 +1,15 @@
-### TASK MANAGER 
+### TODO 
 
-FOR LOCALLY SETUP THIS PROJECT 
-
-1.) npm install 
-2.) npm run start 
+## Installation
+1. Clone the repo  
+2. Run `npm install`
+3. Start the app with `npm start`
 
 ## LIVE DEMO LINK - https://gleaming-unicorn-ca9df1.netlify.app/
 
   
 
-### **🚀 Features Implemented in Your Project:**
+### **🚀 Features Implemented in the Project:**
 1️⃣ **User Authentication**: Only authenticated users can add tasks.  
 2️⃣ **User-Specific Tasks**: Each user sees only their own tasks.  
 3️⃣ **Priority-Based Tasks**: Tasks have three priority levels:  
