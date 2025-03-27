@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+### TASK MANAGER 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+FOR LOCALLY SETUP THIS PROJECT 
 
-## Available Scripts
+1.) npm install 
+2.) npm run start 
 
-In the project directory, you can run:
+## LIVE DEMO LINK - https://gleaming-unicorn-ca9df1.netlify.app/
 
-### `npm start`
+  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### **🚀 Features Implemented in Your Project:**
+1️⃣ **User Authentication**: Only authenticated users can add tasks.  
+2️⃣ **User-Specific Tasks**: Each user sees only their own tasks.  
+3️⃣ **Priority-Based Tasks**: Tasks have three priority levels:  
+   - 🔴 **High** (Red)  
+   - 🟡 **Medium** (Yellow)  
+   - 🟢 **Low** (Green)  
+4️⃣ **Interactive UI**:  
+   - Priority selection buttons instead of a dropdown.  
+   - Fully responsive design covering the whole screen.  
+   - Better spacing and contrast for readability.  
+5️⃣ **Task Creation Timestamp**: Each task displays the time it was added.  
+6️⃣ **Weather Integration**: Displays real-time weather fetched from an API.  
+7️⃣ **Task Management**: Users can add, view, and manage tasks.  
+8️⃣ **Dynamic Styling**: Tasks are color-coded based on priority for better visibility.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+  Here is the list of **npm packages** installed in the project:  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **1️⃣ Core Dependencies**  
+✅ `react` - Main React library  
+✅ `react-dom` - React DOM rendering  
+✅ `react-scripts` - Scripts for React app (includes Webpack, Babel, ESLint)  
 
-### `npm run build`
+### **2️⃣ State Management**  
+✅ `@reduxjs/toolkit` - Redux state management  
+✅ `react-redux` - React bindings for Redux  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### **3️⃣ Authentication & Persistence**  
+✅ `redux-persist` - Persists Redux state across page reloads  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### **4️⃣ UI & Styling**  
+✅ `tailwindcss` - CSS framework for styling  
+✅ `postcss` - Used for processing Tailwind CSS  
+✅ `autoprefixer` - Adds vendor prefixes for CSS  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### **5️⃣ Weather API Integration**  
+✅ `axios` - For making API requests to fetch weather data  
 
-### `npm run eject`
+### **6️⃣ Testing (Optional)**  
+✅ `@testing-library/react` - React testing utilities  
+✅ `@testing-library/jest-dom` - Jest matchers for testing  
+✅ `@testing-library/user-event` - Simulates user events  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
